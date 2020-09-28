@@ -1,0 +1,72 @@
+body {
+    background-image: url("resources/apresentacao.gif");
+    color: #3bef16;
+    background-size: cover;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 100px;
+    margin-top: unset;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-decoration: blink;
+
+}
+
+p {
+    margin-top: auto;
+}
+
+.titulo1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quadrado_central {
+    position: relative;
+    background-color: #000000a6;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.botao {
+    text-align: center;
+    color: #169a03;
+    background-color: #00000000;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-weight: bold;
+    font-family: "Gotham", "Arial", "sans-serif";
+    width: 10px;
+    margin-bottom: 5px;
+    text-decoration: blink;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-color: #30880a;
+    
+}
+
+.botao:hover {
+    background-color: #169a03b3;
+    color: #000000;
+    border-color: #011d01;
+    text-transform: uppercase;
+}
+

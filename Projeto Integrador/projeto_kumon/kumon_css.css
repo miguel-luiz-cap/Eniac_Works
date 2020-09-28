@@ -1,0 +1,155 @@
+body {
+    background-image: url("resources/kumon_background.jpg");
+    background-size: 300px;
+    background-blend-mode: color-burn;
+}
+
+.barrinha {
+	position: relative;
+	background-color: #6cf;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 1px;
+    padding-right: 50px;
+    padding-left:  50px;
+    border-radius: 10px;
+}
+
+.barrinha2 {
+	position: relative;
+	background-color: #6cf;
+    text-align: right;
+    font-size: 15px;
+    font-family: "Gotham", "Arial", "sans-serif";
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: inherit;
+    border-radius: 10px;
+    /*padding-right: 5%;
+    padding-right: 50px;
+    padding-left:  50px;*/
+}
+
+.barrinha2 .link {
+	color: #03435b;
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: blink;
+}
+.barrinha2 .link:hover {
+	color: white;
+}
+.barrinha2 .link:active {
+	color: white;
+	background-color: #3a7a9a;
+}
+
+.quadrado_central {
+	position: relative;
+	background-color: #6cf;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Gotham", "Arial", "sans-serif";
+    margin: 30px;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.quadrado_esquerdo {
+	position: relative;
+	background-color: #6cf;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Gotham", "Arial", "sans-serif";
+    width: 29%;
+    height: max-content;
+    float: left;
+    margin-top: 10px;
+    margin-left: inherit;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.quadrado_direito {
+	position: relative;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Gotham", "Arial", "sans-serif";
+    width: 60%;
+    height: max-content;
+    float: right;
+    margin-top: 10px;
+    margin-right: inherit;
+    box-sizing: border-box;
+}
+.quadrado_central .txt_bold {
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+
+.quadrado_central .txt_button {
+    text-align: center;
+    font-size: 15px;
+}
+
+.quadrado_direito .txt_bold {
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+
+.quadrado_esquerdo .txt_bold {
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+
+.quadrado_central .box_login {
+	text-align: center;
+	color: #000;
+	background-color: #d4d4d4;
+	padding: 5px 5px;
+	text-transform: uppercase;
+	border-radius: 100px;
+	font-weight: bold;
+	font-family: "Gotham", "Arial", "sans-serif";
+	width: 90%;
+	margin-bottom: 5px;
+    text-decoration: blink;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.quadrado_central .box_login:hover {
+	background-color: #01e8d3;
+	color: #000;
+	border-color: #FFF;
+	text-transform: uppercase;
+}
+
+.lista_materiais {
+    color: #463f3f;
+    padding-left: 7%;
+    text-decoration: blink;
+    font-size: 20px;
+}
+
+.quadrado_central .txt_center {
+	text-align: center;
+}
